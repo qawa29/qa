@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+
+
+.scrolling-image-container {
+  overflow: hidden;
+}
+
+
+
+  @keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-3840px); /* The image width */
+    }
+  }
+
+
+  .scrolling-image {
+    background: url("white.jpg") repeat-x;
+    height: 2400px;
+    width: 7680px;
+    animation: slide 10s linear infinite;
+
+}
+
+.info{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 700px;
+}
+
+.info1{
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 700px;
+}
+
+.info2{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 700px;
+}
+
+.info3{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 700px;
+}
